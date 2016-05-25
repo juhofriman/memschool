@@ -8,3 +8,5 @@ Wikissä "for dummies by dummy" -ohjeet jvisualvm:n käyttöön.
 $ mvn clean package
 $ java -jar target/memschool-1.0-SNAPSHOT.jar
 ```
+
+Muistiargumentit saa kätevästi täältä http://jvmmemory.com/
