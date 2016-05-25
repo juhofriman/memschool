@@ -6,8 +6,15 @@ package fi.solita.memschool;
 public class Application {
 
     public static void main(String[] args) {
-        // 1. reserve some memory
-        // 2. keep program running
-        // 3. inspect with jvisualvm
+        System.out.println("Filling StringBuffer 'till eternity...");
+        StringBuffer stringBuffer = new StringBuffer();
+        while(true) {
+            try {
+                Thread.sleep(10);
+                stringBuffer.append("foo");
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+        }
     }
 }
