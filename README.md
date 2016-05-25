@@ -22,3 +22,5 @@ VAAN NÄIN
 ```
 $ java -XX:MetaspaceSize=1m -jar target/memschool-1.0-SNAPSHOT.jar
 ```
+
+![Juuh elikkäs](https://pbs.twimg.com/media/B7OHAz4CYAAHwT9.jpg)
